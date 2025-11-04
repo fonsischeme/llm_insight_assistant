@@ -1,0 +1,19 @@
+# Core runtime settings
+vector_store:
+  persist_directory: "chromadb_persist"
+  collection_name: "feedback"
+
+embeddings:
+  provider: "auto"  # "openai" or "local" or "auto"
+  openai_model: "text-embedding-3-small"
+  local_model: "sentence-transformers/all-MiniLM-L6-v2"
+
+llm:
+  backend: "auto"   # "openai" or "hf" or "auto"
+  openai_chat_model: "gpt-4o-mini"   # used for chat completions if available
+  hf_model: "google/flan-t5-large"   # local HF model for generation
+  max_tokens: 512
+
+evaluation:
+  rubric_model: "gpt-4o-mini"  # used for LLM-based rubric (OpenAI API required)
+  similarity_threshold: 0.65

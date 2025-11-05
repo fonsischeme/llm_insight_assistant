@@ -75,6 +75,8 @@ streamlit run app.py
 ### 4. Upload or use sample data
 A sample dataset (data/sample_feedback.csv) is provided to test immediately.
 
+---
+
 ## 🧾 Configuration
 
 All runtime options live in:

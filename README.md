@@ -75,7 +75,7 @@ streamlit run app.py
 ### 4. Upload or use sample data
 A sample dataset (data/sample_feedback.csv) is provided to test immediately.
 
-### 🧾 Configuration
+## 🧾 Configuration
 
 All runtime options live in:
 
@@ -91,7 +91,9 @@ embeddings:
   provider: "auto"   # "openai", "local", or "auto"
 ```
 
-### 🔬 Evaluation Example
+---
+
+## 🔬 Evaluation Example
 The app reports:
 
 Semantic Similarity: Mean and max cosine similarity vs retrieved texts
@@ -108,14 +110,18 @@ Example output:
 }
 ```
 
-### 🧭 Roadmap
+---
+
+## 🧭 Roadmap
 ✅ MVP with dual LLM backends
 ✅ Evaluation loop (LLM rubric + similarity)
 ⏳ Human-in-the-loop feedback loop
 ⏳ Multilingual theme extraction
 ⏳ Advanced analytics dashboard (theme trends over time)
 
-### 🧰 Tech Stack
+---
+
+## 🧰 Tech Stack
 | Layer      | Tools                                             |
 | ---------- | ------------------------------------------------- |
 | Frontend   | Streamlit (light theme, Plotly charts)            |
@@ -125,10 +131,14 @@ Example output:
 | Models     | GPT-4, Flan-T5-large                              |
 | Infra      | Local development (optional API-based deployment) |
 
-### 👨‍💻 Author
+---
+
+## 👨‍💻 Author
 Alfonso Bonilla
 Senior Data Scientist (NLP & Applied AI)
 [LinkedIn](http://linkedin.com/in/alfonsobonilla)
 
-### ⭐ Acknowledgements
+---
+
+## ⭐ Acknowledgements
 Built using OpenAI, HuggingFace, and Chroma.
